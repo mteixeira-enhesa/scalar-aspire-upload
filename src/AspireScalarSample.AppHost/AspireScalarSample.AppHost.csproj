@@ -1,0 +1,19 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.1.0">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>d3c76264-c893-47f9-9b1e-cea9a3de7f57</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Scalar.Aspire" Version="0.8.21" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspireScalarSample.Api\AspireScalarSample.Api.csproj" />
+  </ItemGroup>
+
+</Project>
